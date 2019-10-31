@@ -2,14 +2,14 @@
   "name": "data-cube-frontend-example",
   "private": true,
   "version": "1.0.0",
-  "description": "Starter pack for compiling ES6+ apps to ES5",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --output-public-path=/build/  --mode development --progress --open --hot",
     "build": "webpack --mode production --progress"
   },
-  "author": "Brad Traversy",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -19,5 +19,8 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@zazuko/query-rdf-data-cube": "^0.3.1"
   }
 }
